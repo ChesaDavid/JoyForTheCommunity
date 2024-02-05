@@ -18,14 +18,36 @@ button{
 .short-start{
     padding: 100px;
     background-color: gray;
-    margin: solid 10px;
+    margin: solid 10px rgb(255,255,255);
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     color: white;
 }
 .Volunteering-title{
     color: white;
+    text-align: center;
 }
 .Volunteering-p{
+    margin-left: 600px;
     color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 0.2rex;
+}
+#go-to-the-top{
+    position: fixed;
+    display: block;
+}
+.Volunteering-img{
+    width: 400px;
+    height: 400px;
+}
+.Volunteering-img1{
+    width: 400px;
+    height: 400px;
+    margin-top: -380px;
+}
+.short{
+    display: flex;
+    margin-left: -120px;
 }
