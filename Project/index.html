@@ -7,18 +7,23 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <script src="./scrollTotTop.js"></script>
     <div class="wraper">
         <div class="main-body">
             <div class="navigation">
+                <a href="#Volunteer"><button>About</button></a>
                 <a href="#Donation"><button>Donation</button></a>
-                <a href=""><button>About</button></a>
                 <a href=""><button>Contact</button></a>
                 <a href=""><button>Projects</button></a>
                 <a href=""><button>People</button></a>
-                <a href=""><button>More</button></a>
+                <a href=""><button id="more-button">More</button></a>\
+                <ul style="display: none;" id="unseeanList">
+                    <li><button type="button"></button></li>
+                </ul>
+
             </div>
             <img src="./Images/volunteers.jpg" class="frontImg">
-            <h1 class="Volunteering-title">Volunteering</h1>
+            <h1 class="Volunteering-title" id="Volunteer">Volunteering</h1>
             <div class="Short-start">
                 <div class="short">
                     <p class="Volunteering-p">
@@ -48,6 +53,5 @@
         </footer>
         <button id="go-to-the-top" class="btnhidden" onclick="toFunction()">Go to Top</button>
     </div>
-<script src="./scrollTotTop.js"></script>
 </body>
 </html>
